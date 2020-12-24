@@ -13,5 +13,5 @@ async def on_message(message):#누군가 메시지를 보냈을 때 하단 명�
     if message.content.startswith("안녕"):
         await message.channel.send("반가워")
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
